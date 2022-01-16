@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="leapxpert_automation" duration-ms="52105" started-at="2022-01-16T14:06:03Z" finished-at="2022-01-16T14:06:55Z">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="TestRunner.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leapxpert.tests.runner.TestRunner@2fd66ad3]" name="runScenario" class="com.leapxpert.tests.runner.TestRunner"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test name="Assignment2" duration-ms="52105" started-at="2022-01-16T14:06:03Z" finished-at="2022-01-16T14:06:55Z">
+      <class name="com.leapxpert.tests.runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.leapxpert.tests.runner.TestRunner@2fd66ad3]" name="setUpClass" is-config="true" duration-ms="2034" started-at="2022-01-16T14:06:03Z" finished-at="2022-01-16T14:06:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.leapxpert.tests.runner.TestRunner@2fd66ad3]" name="runScenario" duration-ms="50000" started-at="2022-01-16T14:06:05Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-16T14:06:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get QR code from web application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Automated script using Selenium, feature file, cucumber, java"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.leapxpert.tests.runner.TestRunner@2fd66ad3]" name="tearDownClass" is-config="true" duration-ms="25" started-at="2022-01-16T14:06:55Z" finished-at="2022-01-16T14:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.leapxpert.tests.runner.TestRunner -->
+    </test> <!-- Assignment2 -->
+  </suite> <!-- leapxpert_automation -->
+</testng-results>

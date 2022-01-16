@@ -1,0 +1,35 @@
+{
+  "config": [
+    {
+      "browserName": "",
+      "generateScreenShots": "true",
+      "driverType": "androidDriver",
+      "localExecution": "true",
+      "retryTestingCount": "1",
+      "hubUrl": "http://127.0.0.1:4723/wd/hub",
+      "automationName": "uiautomator2",
+      "platformName": "Android",
+      "platformVersion": "",
+      "deviceName": "ZX1G227NJC",
+      "app": "\\src\\test\\resources\\app\\app-debug.apk",
+      "startIWDP": "true",
+      "newCommandTimeout": "9999",
+      "autoLaunch": "true",
+      "language": "en",
+      "locale": "uk",
+      "udid": "ZX1G227NJC",
+      "orientation": "PORTRAIT",
+      "autoWebview": "false",
+      "noReset": "false",
+      "fullReset": "true",
+      "bundleId": "",
+      "appPackage": "?",
+      "appActivity": "?",
+      "unicodekeyboard": "true",
+      "resetkeyboard": "true",
+      "url": ""
+    }
+  ]
+}
+ 
+ 

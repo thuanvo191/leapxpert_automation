@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [leapxpert_automation]">
+  <parameter name="configfile" value="/config/Desktop-local-config.json"/>
+  <listeners>
+    <listener class-name="testNG.listeners.SuiteListener"/>
+    <listener class-name="testNG.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="Assignment2(failed)">
+    <classes>
+      <class name="com.leapxpert.tests.runner.TestRunner">
+        <methods>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.leapxpert.tests.runner.TestRunner -->
+    </classes>
+  </test> <!-- Assignment2(failed) -->
+</suite> <!-- Failed suite [leapxpert_automation] -->

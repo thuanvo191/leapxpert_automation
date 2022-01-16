@@ -1,0 +1,15 @@
+{
+  "config": [
+    {
+      "browserName": "chrome",
+      "generateScreenShots": "true",
+      "driverType": "webDriver",
+      "localExecution": "true",
+      "retryTestingCount": "1",
+      "hubUrl": "http://localhost:4444/wd/hub",
+      "url": "https://web.qa.leapxpert.app/"
+    }
+  ]
+}
+
+ 

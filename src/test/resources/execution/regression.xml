@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?> <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="leapxpert_automation" parallel="false">
+
+    <listeners>
+        <listener class-name="testNG.listeners.SuiteListener" />
+        <listener class-name="testNG.listeners.TestListener" />
+    </listeners>
+
+    <parameter name="configfile" value="/config/Desktop-local-config.json" />
+
+    <test name="Assignment2">
+        <classes>
+            <class name="com.leapxpert.tests.runner.TestRunner" />
+        </classes>
+    </test>
+
+</suite>
